@@ -1,0 +1,94 @@
+ 
+Identify True or False: 
+-----------------------------------------------
+----------------------------------------------- 
+1. ls is used to list files and 
+directories in a directory.
+
+Ans:-
+True
+Explanation: In a Linux or Unix system,
+the "ls" command is specifically used to
+display the contents of a directory, 
+showing all the files and subdirectories 
+within it. 
+
+-----------------------------------------------------
+2. mv is used to move files and directories. 
+
+Ans:-True
+
+The mv command moves files and directories
+from one directory to another, or renames
+a file or directory.
+----------------------------------------------------
+3.cd is used to copy files and directories.
+
+Ans:-False
+
+ cd command in Linux changes the current 
+working directory.
+-----------------------------------------------------
+ 4. pwd stands for "print working directory
+" and displays the current directory.
+Ans:-True
+
+ Explanation:
+"pwd" stands for "print working directory"
+ and is a command used to display the
+ current directory on a computer system,
+ usually in a command line interface. 
+"pwd": This is the abbreviation for "print
+ working directory". 
+-----------------------------------------------------
+5. grep is used to search for patterns in
+ files.
+Ans:-True
+The grep command is used to search for 
+specific patterns within files. It stands
+ for global regular expression print, and
+ it's useful for filtering and finding
+ specific text strings in files or output 
+from other commands.
+--------------------------------------------------------
+ 6.chmod 755 file.txt gives read, write, 
+and execute permissions to the owner, and 
+read and execute permissions to group and
+ others.  
+Ans:-True
+755 means you can do anything with the file
+or directory, and other users can read and
+execute it but not alter it.
+--------------------------------------------------------
+7.mkdir -p directory1/directory2 creates
+nested directories, creating directory2
+inside directory1 if directory1 does not 
+exist.   
+Ans:-True
+The -p flag in the mkdir command instructs
+the system to create all necessary parent 
+directories if they don't already exist, 
+effectively creating nested directories. 
+So, if you run mkdir -p directory1/directory2,
+it will create "directory2" inside 
+"directory1", even if "directory1" doesn't
+ exist yet. 
+Key points about mkdir -p:
+Creates missing parent directories:
+If any directories in the path are missing,
+ mkdir -p will create them automatically.
+----------------------------------------------------
+8. rm -rf file.txt deletes a file forcefully 
+without confirmation. 
+Ans:-True
+ In Linux, the command "rm -rf file.txt" 
+will delete the file "file.txt" forcefully
+ without asking for confirmation, as the
+ "-f" flag forces deletion without prompts.
+ Explanation:
+1)"rm": This is the Linux command for removing 
+files. 
+2)"-r": The recursive option, which allows 
+deletion of directories and their contents. 
+3))"-f": The force option, which bypasses 
+confirmation prompts before deleting a file. 

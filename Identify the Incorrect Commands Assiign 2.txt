@@ -1,0 +1,81 @@
+1. chmodx is used to change file
+ permissions. 
+Ans:-Correct
+The `chmod` command in Linux is used to 
+modify the permissions and access mode of 
+files and directories. 
+These are the permissions that control who 
+can read, write and execute the file. We 
+have discussed two types of modes for 
+specifying permission: symbolic and octal 
+mode. In symbolic mode, one uses letters an
+d operators to specify the permission.
+`chmod` command in Linux is a very 
+essential tool for managing file and 
+directories permissions.
+---------------------------------------------
+2. cpy is used to copy files and directories.  
+Ans:-
+copy files and directories in Linux, you 
+can use the cp or rsync commands. You can 
+also copy and paste files and directories 
+using the desktop. 
+
+
+cp command
+.The cp command is the most common way to 
+copy files and directories in Linux. 
+.It can copy files to a different directory
+, copy multiple files, or recursively copy 
+entire directories. 
+.To copy the contents of one file to 
+another, use the cp command with two file 
+names. 
+rsync command 
+.The rsync command is primarily used for 
+transferring files between computers.
+.It can also be used to copy files and 
+directories on the same PC.
+.rsync provides a detailed output of the 
+file transfer.
+---------------------------------------------------------
+3. mkfile is used to create a new file.
+Ans:-Incorrect
+
+This commands are using in create new file
+
+touch command:
+   touch test.txt
+
+   touch /path_to_directory/file_name
+
+cat command:
+   cat > test2.txt
+echo command:
+   echo 'Random sample text' > test3.txt
+---------------------------------------------------------------
+4.catx is used to concatenate files. 
+Ans:Correct
+
+The cat (concatenate) command in Linux 
+displays file contents. It reads one or 
+multiple files and prints their content to 
+the terminal. cat is used to view file 
+contents, combine files, and create new 
+files.
+
+---------------------------------------------------------------
+5. rn is used to rename files. 
+Ans:Incorrect
+
+In Linux, the command to rename files is 
+"mv" (move), not "rn" - "mv" is used to 
+both move files and rename them by 
+essentially "moving" a file to the same 
+location with a new name. 
+
+Key points about using "mv":
+Syntax: mv old_filename new_filename 
+Example: To rename a file called 
+"document.txt" to "report.txt", you would 
+use: mv document.txt report.txt. 
